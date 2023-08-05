@@ -1,0 +1,28 @@
+{
+  "name": "jetbrain-fleet-discordrpc",
+  "version": "1.0.0",
+  "description": "A Discord RPC integration for JetBrain Fleet IDE!",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "npx tsc && npm start"
+  },
+  "author": "Mxi1n",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "colors": "^1.4.0",
+    "discord-rich-presence": "^0.0.8",
+    "event-stream": "^4.0.1",
+    "os": "^0.1.2",
+    "process": "^0.11.10",
+    "simple-parser": "^0.0.0",
+    "tslib": "^2.6.1",
+    "wait": "^0.4.2",
+    "xwininfo": "^0.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
